@@ -8,6 +8,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // 加载环境变量
 export default defineConfig({
   plugins: [vue(), vueDevTools()],
+  base: '/fe-demo/', // 注意：前后都有斜杠！
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
