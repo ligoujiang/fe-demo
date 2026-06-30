@@ -1,0 +1,1 @@
+import{l as e,p as t,t as n}from"./index-Dv17mlhJ.js";var r={};function i(n,r){return t(),e(`h1`,null,`this is login`)}var a=n(r,[[`render`,i]]);export{a as default};
