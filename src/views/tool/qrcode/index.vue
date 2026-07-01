@@ -229,6 +229,12 @@ const triggerDownload = (url: string, filename: string) => {
   width: 100%;
 }
 
+.field textarea,
+.field input {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
 .field textarea {
   resize: vertical;
   min-height: 150px;
