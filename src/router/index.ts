@@ -24,6 +24,12 @@ const router = createRouter({
       component: () => import('@/views/login/index.vue'),
     },
     {
+      path: '/tool',
+      name: 'tool',
+      meta: { title: '工具箱' },
+      component: () => import('@/views/tool/index.vue'),
+    },
+    {
       path: '/tool/qrcode',
       name: 'qrcode',
       meta: { title: '二维码生成器' },
