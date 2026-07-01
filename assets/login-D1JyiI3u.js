@@ -1,0 +1,1 @@
+import{l as e,m as t,t as n}from"./index-BTNmDBww.js";var r={};function i(n,r){return t(),e(`h1`,null,`this is login`)}var a=n(r,[[`render`,i]]);export{a as default};
